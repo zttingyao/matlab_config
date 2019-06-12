@@ -1,4 +1,4 @@
-FROM daocloud.io/zttingyao/matlab_runtime
+FROM daocloud.io/tingyao/matlab_runtime
 MAINTAINER Xin Wen <nclxwen@gmail.com>
 WORKDIR /mcr-install
 RUN ./install -mode silent -agreeToLicense yes
